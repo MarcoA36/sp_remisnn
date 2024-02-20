@@ -47,29 +47,28 @@ const FormContacto = () => {
             name="user_name"
             className="form-control"
             id="input-name"
-            placeholder="tu nombre"
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="input-email" className="form-label">
-            Email
+          <label htmlFor="input-contacto" className="form-label">
+            Contacto
           </label>
           <input
-            type="email"
-            name="user_email"
+            type="text"
+            name="user_contacto"
             className="form-control"
-            id="input-email"
-            placeholder="correo@gmail.com"
+            id="input-contacto"
+            placeholder="Whatsapp o Email"
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="input-consulta" className="form-label">
-            Consulta
+          <label htmlFor="input-mensaje" className="form-label">
+            Mensaje
           </label>
           <textarea
             className="form-control"
             name="message"
-            id="input-consulta"
+            id="input-mensaje"
             rows="5"
           ></textarea>
         </div>

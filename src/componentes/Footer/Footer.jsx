@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="container">
         <div className="row text-center">
           <div className="col-md-6 footer__contacto">
-            <p>Calle Sin nombre 123, Olavarría</p>
-            <p>(123) 456-7890</p>
+            <p>Olavarría, Buenos Aires</p>
+            <p>2284 656640</p>
             <p>info@remisnn.com</p>
-            <p>iwww.remisnnolavaria.com</p>
+            <p>www.remisnnolavaria.com</p>
           </div>
           <div className="col-md-6 footer__enlaces d-none d-sm-block">
             <ul>
