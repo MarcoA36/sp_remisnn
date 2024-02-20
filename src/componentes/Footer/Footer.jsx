@@ -12,7 +12,7 @@ const Footer = () => {
             <p>info@remisnn.com</p>
             <p>iwww.remisnnolavaria.com</p>
           </div>
-          <div className="col-md-6 footer__enlaces">
+          <div className="col-md-6 footer__enlaces d-none d-sm-block">
             <ul>
               <li>
                 <Link to="/tarifas">Tarifas</Link>
