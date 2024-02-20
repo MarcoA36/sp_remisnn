@@ -25,9 +25,11 @@ const Banner = () => {
     return () => clearInterval(intervalId);
   }, [texts.length]);
 
-  const numeroWhatsApp = "2284656640"; // Reemplaza esto con el número de tu empresa
+  const numeroWhatsApp = '2284656640';
+
   const abrirWhatsApp = () => {
-    window.open(`https://wa.me/${numeroWhatsApp}`, "_blank");
+    const mensaje = encodeURIComponent('Hola, me podrás mandar un auto???');
+    window.open(`https://wa.me/${numeroWhatsApp}?text=${mensaje}`, '_blank');
   };
 
   return (

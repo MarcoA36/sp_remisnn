@@ -7,12 +7,9 @@ import logoImage from '../../imagenes/card2.png';
 function Navegacion() {
 
   const numeroWhatsApp = '2284656640';
-  // const abrirWhatsApp = () => {
-  //   window.open(`https://wa.me/${numeroWhatsApp}`, '_blank');
-  // };
 
   const abrirWhatsApp = () => {
-    const mensaje = encodeURIComponent('Hola, me podras mandar un auto???');
+    const mensaje = encodeURIComponent('Hola, me podrás mandar un auto???');
     window.open(`https://wa.me/${numeroWhatsApp}?text=${mensaje}`, '_blank');
   };
 
