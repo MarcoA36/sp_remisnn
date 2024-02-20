@@ -68,7 +68,7 @@ const FormContacto = () => {
           </label>
           <textarea
             className="form-control"
-            name="user_message"
+            name="message"
             id="input-consulta"
             rows="5"
           ></textarea>
