@@ -1,0 +1,22 @@
+
+
+.novedades__card {
+    border-radius: 20px;
+}
+
+.novedades__card .titulo {
+    font-family: var(--font-family-1)
+}
+
+.novedades__card img {
+    width: 100%;
+  vertical-align: middle;
+  aspect-ratio: 16/9;
+    object-fit: contain;
+  }
+
+
+
+
+   
+  

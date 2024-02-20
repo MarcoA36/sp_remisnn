@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Protest+Riot&display=swap'); */
+
+/* :root {
+  --bg-color-nav: rgb(168, 214, 168);
+  --color-font: rgb(0, 0, 0);
+  --color-hover: rgb(32, 124, 50);
+} */
+
+.navbar__container {
+  min-height: 70px;
+  background-color: var(--bg-nav);
+}
+
+.navbar__brand { 
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--color-hover);
+  font-size: 32px;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.navbar__link {
+  color: var(--color-font);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar__toggle {
+    color: var(--color-font) ;
+}
+
+
+
+
+.navbar__link:hover,
+.navbar__brand:hover,
+.navbar__toggle:hover {
+    color: var(--color-hover);
+  }

@@ -1,0 +1,78 @@
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
+    url("../../imagenes/olava-foto-1600.jpg");
+}
+
+.banner-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* padding: 15% 0; */
+}
+
+.banner h1 {
+  margin: 0;
+  color: var(--bg-nav);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.banner h2 {
+  margin: 0;
+  color: var(--bg-nav);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  /* font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+.banner__btn {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
+      url("../../imagenes/olava-foto-red.jpg");
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+  }
+ 
+}
+
+@media screen and (max-width: 550px) {
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  .banner .texto-dinamico {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+}
