@@ -2,7 +2,7 @@ import './TablaTarifas.css'
 
 const TablaEspera = () => {
   return (
-    <div className="tabla-tarifas tarifa-espera mt-4">
+    <div className="tabla-tarifas tarifa-espera">
     <table className="table table-dark tabla-tarifas">
       <thead>
         <tr>
