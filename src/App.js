@@ -8,12 +8,13 @@ import QuienesSomos from "./vistas/QuienesSomos/QuienesSomos";
 import Unirse from "./vistas/Unirse/Unirse";
 import Contacto from "./vistas/Contacto/Contacto";
 import Footer from "./componentes/Footer/Footer";
+import ScrollToTop from "./utils/scrollTop";
 
 function App() {
   return (
     <div className="app">
       <Navegacion />
-
+      <ScrollToTop/>       
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quienes-somos" element={<QuienesSomos />} />
