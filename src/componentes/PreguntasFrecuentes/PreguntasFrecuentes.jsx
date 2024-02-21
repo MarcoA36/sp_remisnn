@@ -34,8 +34,8 @@ const PreguntasFrecuentes = () => {
   ];
 
   return (
-    <div className='preguntas-frecuentes card bg-secondary text-white p-3 p-md-5 my-5'>
-      <h2 className='mb-2 text-dark'>Preguntas Frecuentes</h2>
+    <div className='preguntas-frecuentes card bg-secondary text-white p-3 p-lg-5 my-5'>
+      <h2 className='mb-2 text-success bg-dark text-center py-2'>Preguntas Frecuentes</h2>
       {preguntasFrecuentes.map((preguntaRespuesta, index) => (
         <div key={index} className="faq-item">
           <h4 className='text-dark'>{preguntaRespuesta.pregunta}</h4>

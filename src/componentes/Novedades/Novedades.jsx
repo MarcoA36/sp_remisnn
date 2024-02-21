@@ -54,7 +54,7 @@ const Novedades = () => {
             className="card p-2 p-md-4 m-3 my-md-4 bg-dark text-white novedades__card"
             key={novedad.id}
           >
-            <div className="row">
+            <div className="row align-items-center">
               <div className="col-md-3">
                 <img src={novedad.imagen} alt="" />
               </div>

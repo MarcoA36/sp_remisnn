@@ -1,9 +1,14 @@
-import logoImage from "../../imagenes/card2.png";
+import logoImage from "../../imagenes/manejando-sm.jpg";
 import "./CardQuienesSomos.css";
 const CardQuienesSomos = () => {
   return (
-    <div className="row card__quienes-somos">
-      <div className="col-md-6">
+    <div className="row card__quienes-somos align-items-center">
+      <div className="col-lg-6 d-none d-lg-block">
+        <div className="card__imagen">
+          <img src={logoImage} alt="" className="img-fluid" />
+        </div>
+      </div>
+      <div className="col-lg-6">
         <div className="card__texto">
           <h2>Quiénes Somos</h2>
           <p>
@@ -28,11 +33,12 @@ const CardQuienesSomos = () => {
           </p>
         </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-lg-6 d-lg-none">
         <div className="card__imagen">
           <img src={logoImage} alt="" className="img-fluid" />
         </div>
       </div>
+      
     </div>
   );
 };

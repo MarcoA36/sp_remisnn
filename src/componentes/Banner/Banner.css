@@ -4,7 +4,7 @@
   background-position: center;
   height: 92vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
-    url("../../imagenes/olava-foto-1600.jpg");
+    url("../../imagenes/manejando-xl.jpg");
 }
 
 .banner-container {
@@ -54,10 +54,18 @@
   font-style: normal;
 }
 
+@media screen and (max-width: 1900px) {
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
+      url("../../imagenes/manejando.jpg");
+  }
+}
+
+
 @media screen and (max-width: 800px) {
   .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
-      url("../../imagenes/olava-foto-red.jpg");
+      url("../../imagenes/manejando-sm.jpg");
   }
 
   .banner h1 {

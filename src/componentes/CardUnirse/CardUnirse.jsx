@@ -1,9 +1,9 @@
-import logoImage from "../../imagenes/card2.png";
+import logoImage from "../../imagenes/manejando-sm.jpg";
 import "./CardUnirse.css"
 const CardUnirse = () => {
   return (
-    <div className="row card__unirse">
-        <div className="col-md-6">
+    <div className="row card__unirse align-items-center">
+        <div className="col-lg-6">
           <div className="card__texto">
             <h2>Trabajar con nosotros</h2>
             <p>
@@ -27,7 +27,7 @@ const CardUnirse = () => {
             <p></p>
           </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6">
           <div className="card__imagen">
             <img src={logoImage} alt="" className="img-fluid" />
           </div>

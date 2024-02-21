@@ -4,7 +4,7 @@ import FormContacto from "../../componentes/FormContacto/FormContacto";
 
 const Contacto = () => {
   return (
-    <div className="container my-4">
+    <div className="container contacto__container my-4">
         <FormContacto />  
 
         <div className="mensaje mt-4 bg-secondary p-4">

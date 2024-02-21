@@ -1,8 +1,8 @@
-.mensaje {
+.contacto__container  .mensaje {
     border-radius: 20px;
 }
 
-.mensaje h4 {
+.contacto__container  .mensaje h4 {
     color: white;
     text-align: center;
 }
