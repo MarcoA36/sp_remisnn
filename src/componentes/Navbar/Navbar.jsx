@@ -15,13 +15,19 @@ function Navegacion() {
     window.open(`https://wa.me/${numeroWhatsApp}?text=${mensaje}`, '_blank');
   };
 
+  // const handleNavCollapse = () => {
+  //   setExpanded(false);  // Cerrar el menú al hacer clic en un enlace
+  // };
+
   const handleNavCollapse = () => {
-    setExpanded(false);  // Cerrar el menú al hacer clic en un enlace
+    if (expanded) {
+      setExpanded(false); // Solo cerrar el menú si está actualmente expandido
+    }
   };
   return (
     <Navbar expand="lg" expanded={expanded} className="navbar__container text-white sticky-top">
       <Container >
-        <Navbar.Brand as={Link} to="/" className='navbar__brand'>
+        <Navbar.Brand as={Link} to="/" className='navbar__brand' onClick={handleNavCollapse}>
         <img
             src={logoImage}
             alt="Logo"
