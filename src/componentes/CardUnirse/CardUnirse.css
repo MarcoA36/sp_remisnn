@@ -1,5 +1,5 @@
 .card__unirse {
-   padding-top: 40px;
+   /* padding-top: 40px; */
    color: white;
 }
 
@@ -12,9 +12,11 @@
 .card__unirse > div {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .card__unirse .card__imagen img {
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
+

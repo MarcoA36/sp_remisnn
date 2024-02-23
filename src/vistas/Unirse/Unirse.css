@@ -1,7 +1,10 @@
 .container__unirse .card__container {
     min-height: 60vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .container__unirse .contactarse {

@@ -3,6 +3,7 @@ import TablaTarifas from "../../componentes/TablaTarifas/TablaTarifas";
 import "./Tarifas.css";
 import TablaEspera from "../../componentes/TablaTarifas/TablaEspera";
 import TablaLargaDistancia from "../../componentes/TablaTarifas/TablaLargaDistancia";
+// import image from "../../imagenes/ubicacion-sm.png";
 
 const Tarifas = () => {
   return (
@@ -17,6 +18,9 @@ const Tarifas = () => {
         <div className="col-12 col-md-6 my-2">
           <TablaEspera />
         </div>
+        {/* <div className="col-12 col-md-6 my-2">
+          <img src={image} alt="" />
+        </div> */}
       </div>
 
       <div className="mensaje my-4">
