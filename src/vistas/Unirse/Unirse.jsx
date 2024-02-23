@@ -14,7 +14,7 @@ const Unirse = () => {
 
         <div className="contactarse text-white bg-secondary py-3">
           <h3 className="text-info">
-            Si estas interesad@ en unirte contactarte por alguno de estos medios
+            Si estas interesad@ en unirte contactate por alguno de estos medios
           </h3>
           <h4>2284656640</h4>
           <h4>remisnn@gmail.com</h4>
