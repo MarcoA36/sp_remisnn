@@ -9,17 +9,17 @@ const CardQuienesSomos = () => {
         </div>
       </div>
       <div className="col-lg-6">
-        <div className="card__texto">
+        <div className="card__texto text-center">
           <h2 className="text-dark fs-1">Quiénes Somos</h2>
-          <h4>
+          <h5>
             NN es un emprendimiento que nace con el fin de
             brindar una alternativa de calidad a la actual oferta de remises y
             taxis que hay en nuestra ciudad.
-          </h4>
-          <h4>
+          </h5>
+          <h5>
             Creemos entender las claves para poder brindar el mejor servicio a
             nuestra alcance, y nos esforzamos día a día para superarnos.
-          </h4>
+          </h5>
           {/* <h5>
             Para eso estamos comprometidos a escuchar y responder sugerencias de nuestros clientes.
           </h5>

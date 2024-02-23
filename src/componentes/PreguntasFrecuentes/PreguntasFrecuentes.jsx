@@ -4,7 +4,7 @@ const PreguntasFrecuentes = () => {
   const preguntasFrecuentes = [
     {
       pregunta: '¿Cuáles son los horarios de servicio?',
-      respuesta: 'Estamos disponibles las 6am a 12pm, los 7 días de la semana para brindarte el mejor servicio.'
+      respuesta: 'Estamos disponibles de 6am a 12pm (Proximamente 24hs), los 7 días de la semana para brindarte el mejor servicio.'
     },
     {
         pregunta: '¿Cuáles son las tarifas y métodos de pago aceptados?',
