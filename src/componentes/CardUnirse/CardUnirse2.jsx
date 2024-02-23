@@ -10,7 +10,7 @@ const CardUnirse2 = () => {
           </div>
         </div>
         <div className="col-lg-7 py-2 p-lg-4">
-          <div className="card__texto text-center p-1 py-lg-4">
+          <div className="card__texto text-center px-1 py-2 py-lg-4">
            
             <h3>
               ⏳ El tiempo que vas a trabajar lo definis vos!

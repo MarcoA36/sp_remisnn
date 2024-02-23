@@ -9,7 +9,7 @@ const CardUnirse = () => {
             </h3>
 
         <div className="col-lg-6 bg-success py-2 p-lg-4 rounded">
-          <div className="card__texto text-center p-1 py-lg-4">
+          <div className="card__texto text-center px-1 py-2 py-lg-4">
             <h4 className="text-dark fs-2">
               Tener un vehiculo en condiciones y licencia de conducir vigente es todo lo que necesitas para empezar.
             </h4>
