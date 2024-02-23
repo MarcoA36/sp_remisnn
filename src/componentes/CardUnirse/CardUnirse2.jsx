@@ -27,7 +27,7 @@ const CardUnirse2 = () => {
           </div>
         </div>
         <div className="col-lg-6 d-lg-none">
-          <div className="card__imagen">
+          <div className="card__imagen mt-2">
             <img src={logoImage} alt="" className="img-fluid" />
           </div>
         </div>
