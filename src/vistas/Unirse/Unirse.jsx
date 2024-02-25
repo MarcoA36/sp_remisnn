@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import CardUnirse from "../../componentes/CardUnirse/CardUnirse";
 import CardUnirse2 from "../../componentes/CardUnirse/CardUnirse2";
 import "./Unirse.css";
+import CardUnirse3 from "../../componentes/CardUnirse/CardUnirse3";
 
 const Unirse = () => {
   return (
@@ -10,6 +11,7 @@ const Unirse = () => {
         <div className="card__container">
           <CardUnirse />
           <CardUnirse2/>
+          <CardUnirse3/>
         </div>
 
         <div className="contactarse text-white bg-secondary py-3">
