@@ -3,12 +3,13 @@
     background-color: #333;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
   }
 
   .tabla-tarifas th, .tabla-tarifas td {
     /* border: 1px solid #ddd; */
     padding: 8px;
-    text-align: left;
+    text-align: center;
   }
   
   .tabla-tarifas th {
