@@ -5,8 +5,8 @@ const CardUnirse3 = () => {
     <div className="card__mapa rounded-4 text-center bg-success py-2">
       <div className="card__texto text-center px-1 py-2 py-lg-4">
         <h3 className="text-white fs-1 text-center">
-          Desde nuestro lugar nos ocuparemos de hacerte llegar los viajes que
-          mas se acerquen a tu ubicación
+          Desde nuestro lugar nos ocuparemos de hacerte llegar los destinos
+          más cercanos a tu ubicación.
         </h3>
       </div>
        
