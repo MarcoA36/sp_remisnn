@@ -1,6 +1,7 @@
 :root {
   --bg-body: rgb(32, 124, 50);
   --bg-nav: rgb(168, 214, 168);
+  --bg-nav-t: rgba(168, 214, 168, 0.732);
   --color-font: rgb(0, 0, 0);
   --color-hover: rgb(32, 124, 50);
   --font-family-1: "Protest Riot", sans-serif;

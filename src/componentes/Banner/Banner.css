@@ -54,6 +54,32 @@
   font-style: normal;
 }
 
+.banner .mensaje{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-nav-t);
+  border-radius: 20px;
+  /* background-image: url("../../imagenes/ubica.png");
+  background-color: rgba(0, 0, 0, 0.5); */
+  padding: 20px;
+  font-family: "Protest Riot", sans-serif;
+  font-size: 30px;
+  width: auto;
+}
+
+.banner .mensaje input {
+  background-color: var(--bg-nav-t);
+  border-radius: 10px;
+  text-align: center;
+  border: none; /* Oculta los bordes del input */
+  color: white; /* Color del texto */
+  margin: 5px 0; /* Ajusta el margen según tus preferencias */
+  outline: none; /* Oculta el contorno al hacer clic (puedes ajustar esto según tus preferencias) */
+}
+
 @media screen and (max-width: 1900px) {
   .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
@@ -70,6 +96,12 @@
 
   .banner h1 {
     font-size: 4rem;
+  }
+
+  .banner .mensaje{
+
+    font-size: 28px;
+
   }
  
 }
