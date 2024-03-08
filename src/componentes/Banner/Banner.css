@@ -55,6 +55,7 @@
 }
 
 .banner .mensaje{
+  /* margin-top: 60px; */
   text-align: center;
   display: flex;
   flex-direction: column;

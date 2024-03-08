@@ -14,7 +14,6 @@ const Banner = () => {
       "Sierra chica",
       "Loma negra",
       "Hinojo",
-      "Viajes larga distancia",
     ],
     []
   );
