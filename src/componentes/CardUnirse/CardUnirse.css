@@ -1,5 +1,4 @@
 .card__unirse {
-   /* padding-top: 40px; */
    color: white;
 }
 
@@ -20,10 +19,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
-.card__unirse .card__texto {
-    /* border-left: 2px solid black; */
+.card__unirse--1 .card__texto {
     border-radius: 20px;
-    /* padding: 20px 2px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 

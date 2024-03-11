@@ -1,7 +1,7 @@
 .form__container{
     max-width: 600px;
      margin: auto;
-     background-color: black;
+     /* background-color: black; */
      padding: 20px;
      border-radius: 20px;
  }
@@ -9,4 +9,8 @@
  .form__container label {
      color: white;
      font-weight: 500;
+ }
+
+ .form__container .btn__enviar {
+    border: 1px solid white;
  }

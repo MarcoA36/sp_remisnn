@@ -19,7 +19,7 @@ const Unirse = () => {
             Si estas interesad@ en unirte contactate por alguno de estos medios
           </h3>
           <h4>2284656640</h4>
-          <h4>remisnn@gmail.com</h4>
+          <h4>info@remisnn.com</h4>
           <h5 className="text-dark">O dejanos un mesaje en el formulario de <Link to={'/contacto'} className="text-dark text-decoration-underline">contacto</Link></h5>
           
         </div>
