@@ -23,7 +23,7 @@ const Tarifas = () => {
         </div> */}
       </div>
 
-      <div className="mensaje my-4">
+      <div className="mensaje my-4 bg-secondary p-4 rounded-4">
         <h3 className="text-info">
           Estas tarifas fueron actualizadas por ultima vez el día 20/01/2024.
           Cualquier cambio se vera relflejado inmediatamente aqui.

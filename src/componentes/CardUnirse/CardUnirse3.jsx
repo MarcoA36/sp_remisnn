@@ -2,9 +2,8 @@ import mapaImage from "../../imagenes/mapa.png";
 
 const CardUnirse3 = () => {
   return (
-    <div className="card__mapa text-center bg-dark py-2 p-lg-4 rounded-2">
-       <div className="row p-2  align-items-center">
-
+  
+       <div className="card__mapa row p-2 p-lg-4 align-items-center text-center bg-dark rounded-2 ">
 
        <div className="col-md-6 ">
         <h4 className="text-white text-center">
@@ -21,7 +20,6 @@ const CardUnirse3 = () => {
        
        </div>
     
-    </div>
   );
 };
 
