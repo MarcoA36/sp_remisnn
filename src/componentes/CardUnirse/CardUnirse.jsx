@@ -2,7 +2,7 @@ import logoImage from "../../imagenes/manejando-sm.jpg";
 import "./CardUnirse.css"
 const CardUnirse = () => {
   return (
-    <div className="row card__unirse card__unirse--1 p-2 p-lg-4 align-items-center bg-dark rounded-3">
+    <div className="row card__unirse card__unirse--1 py-2 px-1 p-md-2 p-lg-4 align-items-center bg-dark rounded-3">
         <h2 className="text-center text-success fs-1 mb-lg-4">Trabaja con nosotros!</h2>
         <h3 className="mb-3 text-center">
               Somos una sociedad colaborativa abierta al crecimiento. Le damos la bienvenida a todo aquel que este dispuesto a sumar valor a este emprendimiento.

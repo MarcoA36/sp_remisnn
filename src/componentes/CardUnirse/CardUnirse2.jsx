@@ -2,7 +2,7 @@ import logoImage from "../../imagenes/manejate.jpg";
 import "./CardUnirse.css"
 const CardUnirse2 = () => {
   return (
-    <div className="row card__unirse card__unirse--2 p-2 p-lg-4 align-items-center bg-dark rounded-2">
+    <div className="row card__unirse card__unirse--2 py-2 px-1 p-md-2 p-lg-4 align-items-center bg-dark rounded-2">
        {/* <h2 className="text-center fs-1 mb-lg-4">Manejate</h2> */}
         <div className="col-lg-5 d-none d-lg-block">
           <div className="card__imagen">
