@@ -6,7 +6,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const Banner = () => {
   const [textIndex, setTextIndex] = useState(0);
   const [direccion, setDireccion] = useState("");
-  const [mensaje, setMensaje] = useState("");
+  // const [mensaje, setMensaje] = useState("");
 
   const texts = useMemo(
     () => [
@@ -17,6 +17,7 @@ const Banner = () => {
     ],
     []
   );
+
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -33,21 +34,14 @@ const Banner = () => {
   };
 
   const abrirWhatsApp = () => {
-    if (direccion) {
-      setMensaje(`Hola, me podrás mandar un auto a ${direccion}?`)
-    }else{
-      setMensaje(`Hola, me podrás mandar un auto?`)
-    }
-    // const mensajeCompleto = `Hola, me podrás mandar un auto a ${direccion}?`;
-    const mensajeCodificado = encodeURIComponent(mensaje);
+    const mensajeCompleto = `Hola, me podrás mandar un auto a ${direccion}?`;
+    const mensajeCodificado = encodeURIComponent(mensajeCompleto);
     // setMensaje(mensajeCompleto);
     window.open(
       `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`,
       "_blank"
     );
   };
-
-
 
   return (
     <div className="container-fluid banner">
@@ -60,10 +54,9 @@ const Banner = () => {
         <div className="mensaje">
           <input
             type="text"
-            placeholder="Ingresa la dirección"
+            placeholder="Ingresa tu dirección"
             value={direccion}
             onChange={actualizarDireccion}
-            className="input__direccion"
           />
           <button
             className="btn btn-success p-3 mt-4 fs-5 banner__btn"
