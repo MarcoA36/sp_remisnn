@@ -1,5 +1,17 @@
 .quienes-somos__container .card__container {
-    min-height: 60vh;
+    min-height: 92vh;
     display: flex;
     align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
+    url("../../imagenes/manejando-xl.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .banner {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
+        url("../../imagenes/manejando.jpg");
+    }
+  }

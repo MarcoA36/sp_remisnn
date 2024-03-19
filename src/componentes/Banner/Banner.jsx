@@ -46,7 +46,7 @@ const Banner = () => {
   return (
     <div className="container-fluid banner">
       <div className="banner-container container">
-        <h1>Absolutamente legal</h1>
+        <h1>A donde te buscamos?</h1>
         <div className="texto-dinamico">
           <h2>{texts[textIndex]}</h2>
         </div>
@@ -54,7 +54,7 @@ const Banner = () => {
         <div className="mensaje">
           <input
             type="text"
-            placeholder="Ingresa tu dirección"
+            placeholder="Ingresa la dirección"
             value={direccion}
             onChange={actualizarDireccion}
           />
@@ -67,7 +67,7 @@ const Banner = () => {
               icon={faWhatsapp}
               className="icon__whatsapp"
             />{" "}
-            Pedir un coche
+            Pedir coche
           </button>
         </div>
       </div>

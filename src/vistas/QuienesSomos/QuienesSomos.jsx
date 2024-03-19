@@ -1,17 +1,18 @@
 import React from "react";
 import CardQuienesSomos from "../../componentes/CardQuienesSomos/CardQuienesSomos";
 import PreguntasFrecuentes from "../../componentes/PreguntasFrecuentes/PreguntasFrecuentes";
-import './QuienesSomos.css'
+import "./QuienesSomos.css";
 
 const QuienesSomos = () => {
   return (
-    <div className="container quienes-somos__container">
-
+    <div className="quienes-somos__container">
       <div className="card__container">
-        <CardQuienesSomos />
+        <div className="container">
+          <CardQuienesSomos />
+        </div>
       </div>
 
-      <div className="preguntas__container">
+      <div className="container preguntas__container">
         <PreguntasFrecuentes />
       </div>
     </div>

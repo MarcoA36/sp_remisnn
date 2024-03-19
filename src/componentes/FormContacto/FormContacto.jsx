@@ -74,7 +74,7 @@ const FormContacto = () => {
         </div>
         {isSuccess && <div className="alert alert-success bg-success text-white">¡Mensaje enviado con éxito!</div>}
       {errorMessage && <div className="alert alert-danger">{errorMessage}</div>}
-        <button type="submit" className="btn btn-dark w-100 btn__enviar">
+        <button type="submit" className="btn btn-secondary w-100 btn__enviar">
           Enviar
         </button>
       </form>
