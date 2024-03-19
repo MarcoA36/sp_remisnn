@@ -1,18 +1,26 @@
 .container__unirse .card__container {
-    min-height: 90vh;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card__container .card__banner {
+    width: 100%;
+    min-height: 92vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
-      url("../../imagenes/manejando.jpg");
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
+    url("../../imagenes/manejando.jpg");
 }
 
 .container__unirse .contactarse {
-    margin: 40px 0;
-    text-align: center;
-    border-radius: 20px;
+  margin: 40px 0;
+  text-align: center;
+  border-radius: 20px;
 }
