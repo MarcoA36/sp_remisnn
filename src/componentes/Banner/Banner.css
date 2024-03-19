@@ -4,7 +4,9 @@
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
     url("../../imagenes/manejando-xl.jpg");
-  height: 92vh;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
 }
 
 .banner-container {
