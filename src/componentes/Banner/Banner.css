@@ -2,9 +2,9 @@
 .banner {
   background-size: cover;
   background-position: center;
-  height: 92vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.405)),
     url("../../imagenes/manejando-xl.jpg");
+  height: 92vh;
 }
 
 .banner-container {

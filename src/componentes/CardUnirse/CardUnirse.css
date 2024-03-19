@@ -1,5 +1,6 @@
 .card__unirse {
    color: white;
+
 }
 
 .card__unirse h2 {
@@ -8,24 +9,26 @@
     font-style: normal;
 }
 
-.card__unirse > div {
+/* .card__unirse > div {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .card__unirse .card__imagen img {
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); */
 }
 
 .card__unirse--1 .card__texto {
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.462);
 }
 
 .card__mapa {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.462);
 }
 
 

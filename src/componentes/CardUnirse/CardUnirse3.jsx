@@ -2,7 +2,7 @@ import mapaImage from "../../imagenes/mapa.png";
 
 const CardUnirse3 = () => {
   return (
-    <div className="card__mapa row py-2 px-1 p-md-2 p-lg-4 align-items-center text-center bg-dark rounded-2 ">
+    <div className="container card__mapa row py-2 px-1 p-md-2 p-lg-4 align-items-center text-center rounded-2 ">
       <div className="col-md-6 ">
         <h4 className="text-white text-center">
           Nosotros nos encargamos de mantenerte activo y conectado. Buscamos

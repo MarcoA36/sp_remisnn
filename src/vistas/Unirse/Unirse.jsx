@@ -1,20 +1,19 @@
 import { Link } from "react-router-dom";
-import CardUnirse from "../../componentes/CardUnirse/CardUnirse";
+// import CardUnirse from "../../componentes/CardUnirse/CardUnirse";
 import CardUnirse2 from "../../componentes/CardUnirse/CardUnirse2";
 import "./Unirse.css";
 import CardUnirse3 from "../../componentes/CardUnirse/CardUnirse3";
 
 const Unirse = () => {
   return (
-      <div className="container container__unirse mt-2 mt-lg-5">
+      <div className="container__unirse">
         
         <div className="card__container">
-          <CardUnirse />
           <CardUnirse2/>
           <CardUnirse3/>
         </div>
 
-        <div className="contactarse text-white bg-secondary py-3">
+        <div className="container m-auto my-4 contactarse text-white bg-secondary py-3">
           <h3 className="text-info">
             Si estas interesad@ en unirte contactate por alguno de estos medios
           </h3>

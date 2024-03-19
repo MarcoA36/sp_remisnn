@@ -46,7 +46,7 @@ const Banner = () => {
   return (
     <div className="container-fluid banner">
       <div className="banner-container container">
-        <h1>A donde te buscamos?</h1>
+        <h1>24hs<br/> Todos los días</h1>
         <div className="texto-dinamico">
           <h2>{texts[textIndex]}</h2>
         </div>
