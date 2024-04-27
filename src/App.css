@@ -1,5 +1,5 @@
 :root {
-  --bg-body: rgb(32, 124, 50);
+  --bg-body: rgb(41, 103, 41);
   --bg-nav: rgb(168, 214, 168);
   --bg-nav-t: rgba(168, 214, 168, 0.732);
   --color-font: rgb(0, 0, 0);
@@ -16,7 +16,9 @@ body {
 }
 
 .app {
-  background-color: var(--bg-body);
+  /* background-color: var(--bg-body); */
+  /* background-color: var(--bg-body); */
+  background: linear-gradient(to right, var(--bg-body), var(--bg-nav));
   min-height: 100vh;
 }
 

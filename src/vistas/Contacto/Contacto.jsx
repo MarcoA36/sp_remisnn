@@ -8,7 +8,7 @@ const Contacto = () => {
         <FormContacto />  
 
         <div className="mensaje mt-4 bg-secondary p-4">
-          <h3 className="text-info">Si su consulta no fue respondida en menos de 48 hs, puede reenviarla por alguno de estos medios:</h3>
+          <p className="text-center">Si su consulta no fue respondida en menos de 48 hs, puede reenviarla por alguno de estos medios:</p>
           <h4>2284656640</h4>
           <h4>info@remisnn.com</h4>
           </div>   

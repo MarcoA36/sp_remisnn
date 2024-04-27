@@ -1,0 +1,14 @@
+.seccion {
+    margin: auto;
+    /* margin-bottom: 60px; */
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.seccion_contacto h3 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}

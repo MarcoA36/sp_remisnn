@@ -1,4 +1,3 @@
-
 import "./CardUnirse.css";
 const CardUnirse2 = () => {
   return (
@@ -10,7 +9,8 @@ const CardUnirse2 = () => {
 
         <div className="card__texto m-auto  text-white text-center px-1 py-2 py-lg-4 mb-3">
           <h4 className="text-white fs-3 ">
-            Tener un vehiculo en condiciones y licencia de conducir vigente es todo lo que necesitas para empezar!
+            Tener un vehiculo en condiciones y licencia de conducir vigente es
+            todo lo que necesitas!
           </h4>
         </div>
 
@@ -19,24 +19,20 @@ const CardUnirse2 = () => {
         <img src={logoImage} alt="" className="img-fluid" />
       </div>
     </div> */}
-     
-          {/* <h2 className="text-center fs-1 mb-lg-4">Manejate</h2> */}
-         
-            <div className="card__texto text-center m-auto px-1 py-2 py-lg-4 mb-3">
-              <h4>
-                ⏳ Define tus propios horarios de trabajo. ¡Tu tiempo es tuyo!
-              </h4>
-              <h4 className="mb-3 mb-lg-5">
-                🕥 Trabaja en el rango horario que mejor se adapte a tus
-                necesidades y estilo de vida.
-              </h4>
-              <h4>
-                🚩 Elige dónde pasar tu tiempo mientras esperas ser asignado a un
-                viaje. Los destinos te llegarán directamente a tu celular.
-              </h4>
-            </div>
-       
- 
+
+        {/* <h2 className="text-center fs-1 mb-lg-4">Manejate</h2> */}
+
+        <div className="card__texto text-center m-auto px-1 py-2 py-lg-4 mb-3">
+          <h4>
+            Trabaja en el rango horario que mejor se adapte a tus necesidades y
+            estilo de vida.
+          </h4>
+          <h4>Definí cuantas horas por día.</h4>
+
+          <h4>
+            Cuanto estes disponible losn destinos te llegarán a tu celular.
+          </h4>
+        </div>
       </div>
     </div>
   );
