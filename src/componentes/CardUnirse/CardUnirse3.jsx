@@ -6,7 +6,7 @@ const CardUnirse3 = () => {
       <div className="col-md-6 ">
         <h4 className="text-white text-center">
           Buscamos la manera mas eficiente de mantener una comunicación fluida
-          con cada movil. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, ab.
+          con cada movil. Para eso tomamos en cuenta las preferencias de cada chofer.
         </h4>
       </div>
 

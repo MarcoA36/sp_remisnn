@@ -10,11 +10,11 @@ const Contacto = () => {
       </div>
 
       <div className="mensaje mt-4 bg-secondary p-4">
-        <p className="text-center display-6">
+        <p className="text-center">
           Si su consulta no fue respondida en menos de 48 hs, puede reenviarla
           por alguno de estos medios:
         </p>
-        <h4>info@remisnn.com</h4>
+        <h4>info@remis.com</h4>
       </div>
     </div>
   );

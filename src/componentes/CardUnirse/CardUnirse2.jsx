@@ -23,11 +23,11 @@ const CardUnirse2 = () => {
         {/* <h2 className="text-center fs-1 mb-lg-4">Manejate</h2> */}
 
         <div className="card__texto text-center m-auto px-1 py-2 py-lg-4 mb-3">
-          <h4>
+          <h4 className="text-white fs-3">
             Trabaja en el rango horario que mejor se adapte a tus necesidades y
             estilo de vida.
           </h4>
-          <h4>Definí cuantas horas por día.</h4>
+          {/* <h4>Definí cuantas horas por día.</h4> */}
 {/* 
           <h4>
             Cuanto estes disponible losn destinos te llegarán a tu celular.
