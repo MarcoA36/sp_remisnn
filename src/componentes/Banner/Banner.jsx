@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import "./Banner.css";
-import "animate.css";
+// import "animate.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const Banner = () => {
@@ -10,10 +10,9 @@ const Banner = () => {
 
   const texts = useMemo(
     () => [
-      "Olavarría",
-      "Sierra chica",
-      "Loma negra",
-      "Hinojo",
+      "Respuesta inmediata",
+      "Todos los medios de pago",
+      "Viajes larga distancia",
     ],
     []
   );
@@ -27,7 +26,7 @@ const Banner = () => {
     return () => clearInterval(intervalId);
   }, [texts.length]);
 
-  const numeroWhatsApp = "2284656640";
+  const numeroWhatsApp = "+5492284515431";
 
   const actualizarDireccion = (event) => {
     setDireccion(event.target.value);
@@ -46,7 +45,8 @@ const Banner = () => {
   return (
     <div className="container-fluid banner">
       <div className="banner-container container">
-        <h1>24hs<br/> Todos los días</h1>
+        {/* <h1>24hs<br/> Todos los días</h1> */}
+        <h1>Remis Aquí 👇</h1>
         <div className="texto-dinamico">
           <h2>{texts[textIndex]}</h2>
         </div>

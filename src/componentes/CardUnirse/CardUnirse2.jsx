@@ -28,10 +28,10 @@ const CardUnirse2 = () => {
             estilo de vida.
           </h4>
           <h4>Definí cuantas horas por día.</h4>
-
+{/* 
           <h4>
             Cuanto estes disponible losn destinos te llegarán a tu celular.
-          </h4>
+          </h4> */}
         </div>
       </div>
     </div>

@@ -3,12 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Navbar.css"
-import logoImage from '../../imagenes/card2.png';
+// import logoImage from '../../imagenes/card2.png';
+import logoImage from '../../imagenes/coche.png';
 import { useState } from 'react';
 
 function Navegacion() {
   const [expanded, setExpanded] = useState(false);
-  const numeroWhatsApp = '2284656640';
+  const numeroWhatsApp = '+5492284515431';
 
   const abrirWhatsApp = () => {
     const mensaje = encodeURIComponent('Hola, me podrás mandar un auto???');
@@ -31,11 +32,11 @@ function Navegacion() {
         <img
             src={logoImage}
             alt="Logo"
-            width="50"
-            height="50"
-            className="d-inline-block align-top"
+            width="100"
+            // height="50"
+            className="d-inline-block align-top navbar__brand--img"
           />{' '}
-          Remis NN</Navbar.Brand>
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar__toggle' onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="basic-navbar-nav"  onClick={handleNavCollapse}>
           <Nav className="me-auto">

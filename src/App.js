@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+
 import Navegacion from "./componentes/Navbar/Navbar";
 import Home from "./vistas/Home/Home";
 import Clientes from "./vistas/Clientes/Clientes";

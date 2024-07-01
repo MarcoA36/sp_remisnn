@@ -12,3 +12,19 @@
     text-align: center;
     padding: 10px;
 }
+
+.seccion_quienes-somos {
+    position: relative; /* Establece posición relativa para poder posicionar elementos hijos de manera absoluta */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+  }
+
+  .seccion_quienes-somos .overlay {
+    position: relative; /* Establece posición relativa para poder posicionar el fondo de manera absoluta */
+    width: 100%; /* Ocupa todo el ancho del contenedor padre */
+    height: 100%; /* Ocupa toda la altura del contenedor padre */
+    background-image: url('../../imagenes/card2.png'); /* Ruta a tu imagen vectorial */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    opacity: 0.5; /* Ajusta la opacidad de la imagen (valor entre 0 y 1) */
+    z-index: -1; /* Coloca el fondo detrás de otros elementos */
+  }
