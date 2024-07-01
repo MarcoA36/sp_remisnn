@@ -32,7 +32,7 @@ function Navegacion() {
         <img
             src={logoImage}
             alt="Logo"
-            width="100"
+            width="110"
             // height="50"
             className="d-inline-block align-top navbar__brand--img"
           />{' '}
