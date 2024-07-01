@@ -9,8 +9,8 @@ const Footer = () => {
           <div className="col-md-6 footer__contacto">
             <p>Olavarría, Buenos Aires</p>
             <p>2284 656640</p>
-            <p>info@remisnn.com</p>
-            <p>www.remisnnolavaria.com</p>
+            <p>info@remis.com</p>
+            <p>www.remis.com</p>
           </div>
           <div className="col-md-6 footer__enlaces d-none d-sm-block">
             <ul>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <Link to="/quienes-somos">Quienes somos</Link>
               </li>
               <li>
-                <Link to="/unirse">Unirse a NN</Link>
+                <Link to="/unirse">Unirse</Link>
               </li>
               <li>
                 <Link to="/contacto">Contacto</Link>
@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 mt-3">
             <p>
-              &copy; {new Date().getFullYear()} Remis NN Olavarría. Todos los derechos
+              &copy; {new Date().getFullYear()} Remis. Todos los derechos
               reservados.
             </p>
           </div>

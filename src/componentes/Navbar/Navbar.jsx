@@ -43,7 +43,7 @@ function Navegacion() {
             <Nav.Link onClick={abrirWhatsApp} className='navbar__link text-success'>Pedir coche</Nav.Link>
             <Nav.Link as={Link} to="/tarifas" className='navbar__link'>Tarifas</Nav.Link>
             <Nav.Link as={Link} to="/quienes-somos" className='navbar__link'>Quienes somos</Nav.Link>       
-            <Nav.Link as={Link} to="/unirse" className='navbar__link'>Unirse a NN</Nav.Link>
+            <Nav.Link as={Link} to="/unirse" className='navbar__link'>Unirse</Nav.Link>
             <Nav.Link as={Link} to="/contacto" className='navbar__link'>Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -13,9 +13,9 @@ const Home = () => {
       </section>
 
       {/* <Novedades/> */}
-      <section className="seccion_quienes-somos seccion">
+      {/* <section className="seccion_quienes-somos seccion">
         <CardQuienesSomos />
-      </section>
+      </section> */}
 
       
       {/* <section className="seccion_unirse seccion">
