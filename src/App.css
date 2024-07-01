@@ -36,3 +36,11 @@ li{
   aspect-ratio: 16/9;
   object-fit: cover;
 } */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff; /* Puedes ajustar el color de fondo */
+}

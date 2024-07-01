@@ -29,16 +29,19 @@
   font-weight: 400;
   font-style: normal;
 }
-.banner h2 {
+.banner .texto-dinamico {
   margin: 0;
+  opacity: 0.8;
   /* color: var(--bg-nav); */
   color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   font-size: 3rem;
   font-weight: bold;
-  font-family: "Protest Guerrilla", sans-serif;
-  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
 }
 
 .banner p {

@@ -1,31 +1,30 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState } from "react";
 import "./Banner.css";
 // import "animate.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const Banner = () => {
-  const [textIndex, setTextIndex] = useState(0);
+  // const [textIndex, setTextIndex] = useState(0);
   const [direccion, setDireccion] = useState("");
   // const [mensaje, setMensaje] = useState("");
 
-  const texts = useMemo(
-    () => [
-      "Respuesta inmediata",
-      "Todos los medios de pago",
-      "Viajes larga distancia",
-      "Encomiendas",
-    ],
-    []
-  );
+  // const texts = useMemo(
+  //   () => [
+  //     "Respuesta inmediata",
+  //     "Viajes larga distancia",
+  //     "Encomiendas",
+  //   ],
+  //   []
+  // );
 
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 2500);
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+  //   }, 2500);
 
-    return () => clearInterval(intervalId);
-  }, [texts.length]);
+  //   return () => clearInterval(intervalId);
+  // }, [texts.length]);
 
   const numeroWhatsApp = "+5492284515431";
 
@@ -68,8 +67,14 @@ const Banner = () => {
             Pedir coche
           </button>
         </div>
-        <div className="texto-dinamico mt-4">
+        {/* <div className="texto-dinamico mt-4">
           <h2>{texts[textIndex]}</h2>
+        </div> */}
+        <div className="texto-dinamico mt-4">
+          <h2>Respuesta inmediata</h2>
+          <h3>Todos los medios de pago</h3>
+          <h3>Viajes larga distancia</h3>
+          <h3>Encomiendas</h3>
         </div>
       </div>
     </div>
