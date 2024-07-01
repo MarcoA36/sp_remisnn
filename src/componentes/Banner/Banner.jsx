@@ -13,6 +13,7 @@ const Banner = () => {
       "Respuesta inmediata",
       "Todos los medios de pago",
       "Viajes larga distancia",
+      "Encomiendas",
     ],
     []
   );
@@ -47,9 +48,6 @@ const Banner = () => {
       <div className="banner-container container">
         {/* <h1>24hs<br/> Todos los días</h1> */}
         <h1>Remis Aquí 👇</h1>
-        <div className="texto-dinamico">
-          <h2>{texts[textIndex]}</h2>
-        </div>
 
         <div className="mensaje">
           <input
@@ -69,6 +67,9 @@ const Banner = () => {
             />{" "}
             Pedir coche
           </button>
+        </div>
+        <div className="texto-dinamico mt-4">
+          <h2>{texts[textIndex]}</h2>
         </div>
       </div>
     </div>
